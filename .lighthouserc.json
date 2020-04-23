@@ -4,16 +4,14 @@
       "numberOfRuns": 1,
       "startServerCommand": "yarn start",
       "url": [
-        "http://localhost:3000/",
-        "http://localhost:3000/about",
+        "http://localhost:3000",
+        "http://localhost:3000/about"
       ]
     },
     "assert": {
-      "preset": "lighthouse:no-pwa",
+      "preset": "lighthouse:recommended",
       "assertions": {
-        "offscreen-images": "off",
-        "uses-webp-images": "off",
-        "uses-http2": "off"
+        "offscreen-images": "off"
       }
     },
     "upload": {
